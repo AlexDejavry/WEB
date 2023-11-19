@@ -2,3 +2,74 @@ body{
     margin: 0;
     line-height: 1.6;
 }
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro{
+    width: 1440px;
+    height: 820px;
+    background: url("../img/intro.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro__suptitle{
+    width: 880px;
+}
+.intro__suptitle{
+
+}
+
+.intro__title{
+
+}
+
+
+.header{
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+}
+
+.nav{
+    font-size: 14px;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 19px;
+    transition: color .3s linear;
+    padding: 0 10px;
+    font-weight: 900;
+}
+
+.nav__link:hover{
+    color: #df6e07;
+}
+
+.nav__link::after{
+    color: #df6e07;
+}
