@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
     max-width: 880px;
     width: 100%;
     margin: 0 auto;
-    line-height: 1.1;
+    line-height: 1.2;
 
 }
 .intro__suptitle{
@@ -52,6 +52,17 @@ h1,h2,h3,h4,h5,h6{
     text-align: left;
     font-size: 40px;
     margin-left: -150px;
+ 
+}
+
+.intro__text{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 200;
+    margin-left: -150px;
+    line-height: 1.5;
 }
 
 
@@ -89,3 +100,4 @@ h1,h2,h3,h4,h5,h6{
 .nav__link::after{
     color: #df6e07;
 }
+
