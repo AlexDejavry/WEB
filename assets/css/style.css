@@ -22,21 +22,36 @@ h1,h2,h3,h4,h5,h6{
 
 /* Intro */
 .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 1440px;
     height: 820px;
     background: url("../img/intro.jpg") center no-repeat;
     background-size: cover;
 }
 
-.intro__suptitle{
-    width: 880px;
+.intro__inner{
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.1;
+
 }
 .intro__suptitle{
-
+    color: #fff;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    margin-left: -150px;
 }
 
 .intro__title{
-
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 40px;
+    margin-left: -150px;
 }
 
 
@@ -51,18 +66,19 @@ h1,h2,h3,h4,h5,h6{
 
 .nav{
     font-size: 14px;
-    margin-top: 45px;
+    margin-top: 70px;
     text-transform: uppercase;
+    margin-left: 38px;
 }
 
 .nav__link{
     text-decoration: none;
-    color: #fff;
+    color: #575757;
     display: inline-block;
     vertical-align: top;
     font-size: 19px;
     transition: color .3s linear;
-    padding: 0 10px;
+    padding: 0 17px;
     font-weight: 900;
 }
 
